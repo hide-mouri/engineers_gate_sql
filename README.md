@@ -9,13 +9,13 @@ SQLオリジナル課題制作物として、下記課題を行いました。
 ### 1. MySQLをインストールしましょう
 ### 2. MySQLに接続してみましょう
 ### 3. データベースを作成しましょう
-```
+```sql
 /* 3.データベース作成 */
 CREATE SCHEMA `test_db` ;
 ```
 
 ### 4. テーブルを作成しましょう
-```
+```sql
 /* 4.テーブル作成 */
 CREATE TABLE `test_db`.`user` (
   `id` INT NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE `test_db`.`user` (
 ```
 
 ### 5. 作成したテーブルにレコードの登録・更新・削除を行ってみましょう
-```
+```sql
 /* 5.レコード登録・更新・削除 */
 INSERT INTO `test_db`.`user` (`id`, `name`, `birthday`, `height`, `weight`) VALUES ('1', '山田 太郎', '2000-12-21', '170', '65');
 INSERT INTO `test_db`.`user` (`id`, `name`, `birthday`, `height`, `weight`) VALUES ('2', '山田 太郎', '2001-01-01', '175', '70');
