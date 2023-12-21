@@ -43,7 +43,7 @@ DELETE FROM `test_db`.`user` WHERE (`id` = '3');
 ### 6. MySQL Workbenchをインストールしましょう
 ### 7. MySQL Workbenchで、作成したデータベースに接続しましょう
 ### 8. MySQL Workbenchで、ER図を作成してみましょう
-<img src="docs/test_db.png" width="25%">
+<img src="docs/test_db.png" width="30%">
 
 ### 9. 作成したER図よりCreate文を生成してみましょう
 ```sql
@@ -59,5 +59,5 @@ COMMENT = 'ユーザー'
 ```
 
 ### 10. MySQL WorkbenchでSNSサイトを作成する上で必要なテーブル構成を設計（ER図を作成する）してみましょう
-<img src="docs/test_db_2.png" width="60%">
+<img src="docs/test_db_2.png" width="75%">
 
