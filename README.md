@@ -1,4 +1,4 @@
-# EngineersGate SQL 課題
+# EngineersGate SQLオリジナル課題
 
 SQLオリジナル課題制作物になります。
 
